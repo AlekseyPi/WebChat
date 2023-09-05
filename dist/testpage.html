@@ -1,0 +1,16 @@
+<body style="margin: 0">
+  <script type="module">
+    import Chatbot from "/web.js";
+    Chatbot.initFull({
+      chatflowid: "sometestchatflowid",
+      apiHost: "http://localhost:3001",
+      theme: {
+        chatWindow: {
+          // height: 700, don't set height
+          // width: 400, don't set width
+        }
+      }
+  });
+  </script>
+  <flowise-fullchatbot></flowise-fullchatbot>
+</body>

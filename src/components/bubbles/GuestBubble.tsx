@@ -26,8 +26,8 @@ export const GuestBubble = (props: Props) => {
 
   return (
     <div
-      class="flex justify-end mb-2 items-end guest-container"
-      style={{ 'margin-left': '50px' }}
+      class="flex justify-start mb-2 items-end guest-container"
+      style={{ 'margin-left': '20px' }}
     >
       <span
         ref={userMessageEl}
